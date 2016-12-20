@@ -2,7 +2,7 @@
 
 	# Connessione a host e a DB
 	function db_connect()	{
-		$host	= "52.210.163.71:3306";
+		$host	= "52.213.42.517:3306";
 		$user	= "root";
 		$pass	= "washomatic";
 		mysql_connect($host, $user, $pass) or die("Error");	
